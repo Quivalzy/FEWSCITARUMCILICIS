@@ -1,0 +1,26 @@
+{
+  "name": "fewscitarumcilicis",
+  "version": "0.0.1",
+  "description": "Project web-based Flooding Early Warning System designed to monitor and predict river discharge levels on Citarum-Cilicis Watershed, Indonesia. This system combines GIS visualization, real-time data integration, and machine learning-based predictions to aid early warnings for potential flood events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quivalzy/FEWSCITARUMCILICIS.git"
+  },
+  "keywords": [
+    "fews",
+    "indonesia",
+    "flood",
+    "prediction",
+    "inundation"
+  ],
+  "author": "Nafal Muhammad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Quivalzy/FEWSCITARUMCILICIS/issues"
+  },
+  "homepage": "https://github.com/Quivalzy/FEWSCITARUMCILICIS#readme"
+}
