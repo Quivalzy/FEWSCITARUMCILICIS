@@ -4,7 +4,7 @@ This repository contains the codebase for a web-based Flooding Early Warning Sys
 ## Project Overview
 This web application is built with a full-stack WebGIS architecture and leverages machine learning to predict river discharge levels. It integrates observed and predicted hydrological data, displaying it on an interactive map. The backend processes data through a custom ML model, while the front end allows users to visualize the results seamlessly.
 
-##Key Features
+## Key Features
 - GIS Map Visualization: Interactive map using Leaflet.js to display river discharge data on the island.
 - Machine Learning Predictions: TensorFlow model deployed to forecast river discharge based on historical data.
 - Real-Time Data: Integration with GeoServer and PostGIS for efficient spatial data handling and updates.
