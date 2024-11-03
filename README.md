@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FEWSCITARUMCILICIS
+This repository contains the codebase for a web-based Flooding Early Warning System designed to monitor and predict river discharge levels on Citarum-Cilicis Watershed, Indonesia. This system combines GIS visualization, real-time data integration, and machine learning-based predictions to aid early warnings for potential flood events.
 
-## Getting Started
+## Project Overview
+This web application is built with a full-stack WebGIS architecture and leverages machine learning to predict river discharge levels. It integrates observed and predicted hydrological data, displaying it on an interactive map. The backend processes data through a custom ML model, while the front end allows users to visualize the results seamlessly.
 
-First, run the development server:
+## Key Features
+- GIS Map Visualization: Interactive map using Leaflet.js to display river discharge data on the island.
+- Machine Learning Predictions: TensorFlow model deployed to forecast river discharge based on historical data.
+- Real-Time Data: Integration with GeoServer and PostGIS for efficient spatial data handling and updates.
+- Flood Warning System: Thresholds and alerts visually indicate potential flood risks.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech Stack
+- Database: PostgreSQL with PostGIS extension for spatial data support.
+- GIS Publisher: GeoServer for serving spatial data layers (WMS/WFS).
+- Backend: Node.js Express server handling API requests and ML integration.
+- Frontend: Next.js (React-based) and Tailwind CSS for responsive, user-friendly UI.
+- Map Base: Leaflet.js for mapping and data visualization.
+- Web Server: Apache for reverse proxy and handling client requests.
