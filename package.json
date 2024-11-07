@@ -1,7 +1,7 @@
 {
-  "name": "fewscitarumcilicis",
+  "name": "i-flare",
   "version": "0.0.1",
-  "description": "Project web-based Flooding Early Warning System designed to monitor and predict river discharge levels on Citarum-Cilicis Watershed, Indonesia. This system combines GIS visualization, real-time data integration, and machine learning-based predictions to aid early warnings for potential flood events.",
+  "description": "Indonesia Flood Watch and Early Warning System, a project web-based Flooding Early Warning System designed to monitor and predict river discharge levels on Citarum-Cilicis Watershed, Indonesia. This system combines GIS visualization, real-time data integration, and machine learning-based predictions to aid early warnings for potential flood events.",
   "main": "index.js",
   "private": true,
   "scripts": {

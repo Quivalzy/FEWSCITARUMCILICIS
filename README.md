@@ -1,5 +1,5 @@
-# FEWSCITARUMCILICIS
-This repository contains the codebase for a web-based Flooding Early Warning System designed to monitor and predict river discharge levels on Citarum-Cilicis Watershed, Indonesia. This system combines GIS visualization, real-time data integration, and machine learning-based predictions to aid early warnings for potential flood events.
+# I-FLARE
+This repository contains the codebase for Indonesia Flood Watch and Early Warning System (I-FLARE), a web-based Flooding Early Warning System designed to monitor and predict river discharge levels on Citarum-Cilicis Watershed, Indonesia. This system combines GIS visualization, real-time data integration, and machine learning-based predictions to aid early warnings for potential flood events.
 
 ## Project Overview
 This web application is built with a full-stack WebGIS architecture and leverages machine learning to predict river discharge levels. It integrates observed and predicted hydrological data, displaying it on an interactive map. The backend processes data through a custom ML model, while the front end allows users to visualize the results seamlessly.
